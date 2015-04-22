@@ -1,0 +1,34 @@
+# vim: fdm=marker
+
+# optimised python {{{
+__pycache__/
+*.py[cod]
+# }}}
+
+# Vim {{{
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+# }}}
+
+# c9.io {{{
+.c9
+# }}}
+
+# IntelliJ IDEA {{{
+.idea
+JayI.iml
+# }}}
+
+# JayI {{{
+
+# legacy
+responses.txt
+
+# new
+*.csv
+
+# }}}
