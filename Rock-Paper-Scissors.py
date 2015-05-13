@@ -46,12 +46,13 @@ while True:
         print("You have chosen 'paper' !")
         print("The computer chooses...")
         print(cc)
+        print(who_won(cc, choice))
     elif choice == '3':
         cc = find_choice(random.randint(1,3))
         print("You have chosen 'scissors' !")
         print("The computer chooses...")
         print(cc)
-        print (who_won(cc, choice))
+        print(who_won(cc, choice))
     else:
         print("That's not a choice! Try again.")
         pass
