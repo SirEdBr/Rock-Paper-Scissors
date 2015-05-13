@@ -34,6 +34,7 @@ def who_won(cc, choice):
 print("Welcome to 'Rock, Paper, Scissors' !")
 print("Press Ctrl and C to stop this program")
 while True:
+    print('')
     choice=input("What do you want to choose? Type 1 for rock, 2 for paper and 3 for scissors: ")
     if choice == '1':
         cc = find_choice(random.randint(1,3))
